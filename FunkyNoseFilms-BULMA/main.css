@@ -1,0 +1,165 @@
+@keyframes yourAnimation{
+    0%{
+        transform: rotate(xx) translateY(-40%);
+        opacity: 0;
+        }
+    50%{
+        transform: rotate(xx) translateY(-40%);
+        opacity: 0.5;
+        }
+    100%{
+        transform: rotate(xx);
+        opacity: 1;
+        }
+  }
+
+.yes{
+    animation: yourAnimation 0.8s 1 0s ease-in;
+}
+
+
+.ax{
+  text-align: center;
+  align-items: center;
+  top: 50%;
+}
+
+
+
+.Main-text {
+  font-family: 'Nunito', sans-serif;
+  font-style: bold;
+  font-weight: 550;
+}
+
+.fts{font-size: 45px;}
+.Main-text  a {color: black;
+  font-family: pacifico, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.Main-textw a {color: white;
+  font-family: pacifico, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.stick {
+  margin: 0;
+  padding: 0;
+}
+
+.normal-text {
+  font-size: 16px;
+  font-style: light;
+  font-family: 'latex', sans-serif;
+}
+
+.pl{
+  font-family: pacifico, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.make-it-big {
+  font-size: 65px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+}
+
+.center-item {
+  text-align: center;
+  align-items: center;
+}
+
+.pad {
+  padding: 1em;
+  margin-left: 0.3em;
+}
+
+.readibility {
+  line-height: 160%;
+  letter-spacing: 0.1em;
+}
+
+.whiteout{
+  color: white;
+}
+
+.bg {
+  background-image: url("https://media3.giphy.com/media/3o7aD7TFLsZjgzXrZS/200w.gif?cid=790b76117bc914e762e2c1b05adb3c93365c0a72c91a769d&rid=200w.gif");
+justify-content: center color: white;
+}
+
+.vl {
+  border-left: 2px solid grey;
+  opacity: 0,3;
+  height: 400px;
+}
+
+.hdl {
+  font-size: 70px;
+  font-family: 'Nunito', sans-serif;
+}
+.pin{position: fixed;}
+
+.bgh {
+  background-image: url("./asset/danisco.jpeg");
+    /* The image used */
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .bgh2 {
+    background-image: url("./asset/yes.jpeg");
+      /* The image used */
+
+      /* Set a specific height */
+      height: 500px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+
+    .bgh3 {
+      background-image: url("./asset/yo.jpeg");
+        /* The image used */
+
+        /* Set a specific height */
+        height: 500px;
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
+      .bgola{
+        height: 500px;
+        background-image: url("./thumbnail/olapic.png");
+        background-position: center;
+        opacity: 0.8;
+      }
+
+      .bgoce{
+        background-image: url("./thumbnail/oceanet.png");
+        height: 100%;
+        background-position: center;
+          opacity: 0.8;
+      }
+      .bgfc{
+        background-image: url("./thumbnail/frenchcorner.png");
+        height: 100%;
+        background-position: center;
+        opacity: 0.8;
+      }
